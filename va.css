@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffecf0;
+    color: #ff4d6d;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 50px;
+}
+
+.heart {
+    font-size: 5em;
+    animation: heartbeat 1s infinite alternate;
+}
+
+@keyframes heartbeat {
+    from { transform: scale(1); }
+    to { transform: scale(1.2); }
+}
+
+.button, .yes-button {
+    background-color: #ff4d6d;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hidden-message, .hidden-love {
+    display: none;
+    font-size: 2em;
+    margin-top: 20px;
+    color: #d6336c;
+}
+
+.yes-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #ff85a2;
+}

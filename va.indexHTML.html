@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+    <link rel="stylesheet" href="va.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <h1>Hey my love ❤️</h1>
+    <p class="heart">💖</p>
+    <button class="button" onclick="showMessage()">Click Me!</button>
+    
+    <div class="hidden-message" id="message">
+        <p>Will you be my Valentine? 💕</p>
+        <button class="yes-button" onclick="showLove()">Yes! 💖</button>
+    </div>
+
+    <p id="loveMessage" class="hidden-love">Yay! I love you so much! 💗</p>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+        function showLove() {
+            document.getElementById("loveMessage").style.display = "block";
+        }
+    </script>
+</body>
+</html>
